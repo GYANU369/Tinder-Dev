@@ -14,7 +14,7 @@ app.use("/test",(req,res)=>{
 });
 
 app.use("/",(req,res)=>{
-res.send("hello from the server side ");
+res.send("hello from server side and ihave made some changes  ");
 });
 
 app.listen(7777,()=>{
